@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Verdana', 'Arial'; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+hr {
+  margin: 10px 0;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ccc; }
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.wrapper {
+  padding: 0 10px; }
+  .wrapper header .container .top_left {
+    width: 33.333333%;
+    float: left;
+    margin: 30px 0; }
+  .wrapper header .container .top_right {
+    width: 66.666667%;
+    float: right;
+    margin: 60px 0; }
+    .wrapper header .container .top_right .top_menu {
+      float: right; }
+      .wrapper header .container .top_right .top_menu ul .menu_item {
+        float: left; }
+        .wrapper header .container .top_right .top_menu ul .menu_item a {
+          display: block;
+          padding: 10px 15px;
+          font-size: 18px;
+          color: #999; }
+          .wrapper header .container .top_right .top_menu ul .menu_item a:hover {
+            color: #444; }
+      .wrapper header .container .top_right .top_menu ul .menu_item _ .menu_item {
+        margin-left: 30px; }
+  .wrapper .content .container .slider img {
+    width: 100%; }
+  .wrapper .content .container .new_blog {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px; }
+    .wrapper .content .container .new_blog h2 {
+      margin: 30px 0 10px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc; }
+    .wrapper .content .container .new_blog .new_blog_posts .blog_post {
+      width: 15.5%;
+      float: left;
+      padding: 20px 0; }
+      .wrapper .content .container .new_blog .new_blog_posts .blog_post .img_post img {
+        width: 100%; }
+      .wrapper .content .container .new_blog .new_blog_posts .blog_post .content_post {
+        margin-top: 10px; }
+        .wrapper .content .container .new_blog .new_blog_posts .blog_post .content_post h3 {
+          padding: 15px 0; }
+        .wrapper .content .container .new_blog .new_blog_posts .blog_post .content_post .date_post {
+          color: #797979;
+          font-size: 14px;
+          margin: 10px 0; }
+        .wrapper .content .container .new_blog .new_blog_posts .blog_post .content_post p {
+          text-align: justify;
+          font-size: 15px; }
+    .wrapper .content .container .new_blog .new_blog_posts .blog_post + .blog_post {
+      margin-left: 1.4%; }
+  .wrapper .content .container .all_picture {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px; }
+    .wrapper .content .container .all_picture h2 {
+      margin: 30px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc; }
+    .wrapper .content .container .all_picture .list_picture .picture {
+      width: 24%;
+      float: left;
+      margin: 0 1.3% 1% 0; }
+      .wrapper .content .container .all_picture .list_picture .picture img {
+        width: 100%;
+        height: auto; }
+      .wrapper .content .container .all_picture .list_picture .picture:nth-child(4n+4) {
+        margin-right: 0; }
+  .wrapper .content .container #contact h1 {
+    text-align: center; }
+  .wrapper .content .container #contact #contact_form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5; }
+    .wrapper .content .container #contact #contact_form fieldset {
+      border: none;
+      margin: 20px 0; }
+      .wrapper .content .container #contact #contact_form fieldset label {
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 100%; }
+      .wrapper .content .container #contact #contact_form fieldset input, .wrapper .content .container #contact #contact_form fieldset textarea {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 3px;
+        border: 1px solid #999;
+        outline: none;
+        padding: 10px 20px; }
+      .wrapper .content .container #contact #contact_form fieldset textarea {
+        height: 150px; }
+    .wrapper .content .container #contact #contact_form button {
+      padding: 15px 35px;
+      font-size: 16px;
+      border-radius: 3px;
+      border: 0;
+      outline: none; }
+  .wrapper footer .footer_top .footer_col {
+    width: 33.333333%;
+    float: left; }
+  .wrapper footer .footer_left {
+    width: 66.666667%;
+    padding: 30px 0 40px 0; }
+  .wrapper footer .footer_right {
+    width: 33.333333%; }
+  .wrapper .back_to_top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20%;
+    right: 20px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #999;
+    border: 1px solid #999; }
